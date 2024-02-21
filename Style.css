@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --nav:black;
+    --primary-color: #DBE5E3;
+}
+
+body{
+    font-family:Karla;
+}
+.view{
+    height: 90vh;
+}
+.navcolor{
+    color: var(--nav);
+}
+.hero-content{
+    font-family:Karla;
+   
+}
+.hero-section{
+    background-color: var(--primary-color);
+
+}
+.hero-font{
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing:-3px !important;
+}
+.wid{
+    width: 60%;
+
+}
+
+.back-board{
+    background-color: var(--primary-color);
+    width:80%;
+    border-radius:10px ;
+   
+}
+.img-box {
+    width:90%;
+    height: 100%;
+}
+.certificates{
+    background-color: var(--primary-color);
+    
+}
+.cer-size{
+    
+    height:300px;
+    
+    /* border:5px solid  var(--primary-color); */
+    }
+.holder{
+    background-color: #c0bbbb91;
+    width:90%;
+    height: 90%;
+    border-radius: 5px;
+}
+.holder img{
+    transition: transform 100ms ease-in-out;
+  }
+ .holder img:hover{
+    transform: scale(1.1);
+  }
+  .end{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: green; */
+  }
+  .size{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    background-color: green;
+    width: 75%;
+  }
